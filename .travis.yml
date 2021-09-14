@@ -16,7 +16,6 @@ deploy:
   app: "my-react"
   env: "Myreact-env"
   bucket-name: "elasticbeanstalk-us-east-2-013582956519"
-  bucket-path: "my-react"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
